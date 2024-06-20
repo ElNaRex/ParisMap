@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paris Itinerary Maps</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .container {
+            margin-top: 50px;
+            text-align: center;
+        }
+        .map-link {
+            margin: 20px;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: white;
+            background-color: #007BFF;
+            border-radius: 5px;
+            display: inline-block;
+        }
+        .map-link:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Paris Itinerary Maps</h1>
+        <a class="map-link" href="friday_in_paris.html">View Friday Map</a>
+        <a class="map-link" href="saturday_in_paris.html">View Saturday Map</a>
+    </div>
+</body>
+</html>
